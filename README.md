@@ -1,10 +1,10 @@
-**Social Media Sentiment Analysis System **
-**📌 Project Overview**
+Social Media Sentiment Analysis System Using Ensemble Learning
+📌 Project Overview
 
 This project develops a robust system to analyze sentiments in social media posts, specifically from Facebook and Twitter. The system utilizes Ensemble Learning techniques to combine multiple Machine Learning (ML) and Deep Learning (DL) models, aiming to classify sentiments into four distinct categories.
 
 By leveraging the strengths of various algorithms, the system outperforms individual models, providing a tool useful for social media monitoring, brand management, and market research.
-**🛠 Tech Stack**
+🛠 Tech Stack
 
     Language: Python
 
@@ -12,7 +12,7 @@ By leveraging the strengths of various algorithms, the system outperforms indivi
 
     Techniques: Ensemble Learning, Natural Language Processing (NLP)
 
-**📊 Dataset**
+📊 Dataset
 
     Source: Facebook and Twitter datasets sourced from Kaggle.
 
@@ -20,8 +20,8 @@ By leveraging the strengths of various algorithms, the system outperforms indivi
 
     Splits: Divided into training, validation, and test sets.
 
-**⚙️ Methodology
-1. Data Preprocessing**
+⚙️ Methodology
+1. Data Preprocessing
 
 To ensure data quality, the text data underwent rigorous cleaning:
 
@@ -33,7 +33,7 @@ To ensure data quality, the text data underwent rigorous cleaning:
 
     Imbalance Handling: Class imbalance was managed using calculated weights.
 
-**2. Model Architecture**
+2. Model Architecture
 
 The project implemented a diverse range of models before combining them via ensemble methods.
 
@@ -63,7 +63,7 @@ The project implemented a diverse range of models before combining them via ense
 
         Stacking: Uses Logistic Regression as a meta-learner to combine predictions.
 
-**📈 Results & Performance**
+📈 Results & Performance
 
 The models were evaluated based on Accuracy and Macro F1 Score. The Ensemble (Soft Voting) approach achieved the highest performance.
 Model	Accuracy	Macro F1
@@ -88,15 +88,15 @@ Training Convergence
 
     Note: Early stopping and dropout were used to mitigate overfitting risks.
 
-**⚠️ Challenges & Solutions**
+⚠️ Challenges & Solutions
 
     Data Quality: Noisy text containing slang and emojis was challenging; this was handled via regex cleaning.
 
     Model Integration: Stacking required combining LSTM and ML models which have different input formats.
 
     Computational Cost: LSTM training was resource-heavy, and parameter tuning required significant time.
-**
-🚀 Future Scope**
+
+🚀 Future Scope
 
     Enhance ensemble techniques further.
 
