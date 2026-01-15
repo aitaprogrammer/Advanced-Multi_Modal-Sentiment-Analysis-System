@@ -1,4 +1,4 @@
-# Social Media Sentiment Analysis System Using Ensemble Learning
+# Multi Modal Sentiment Analysis System
 
 ## 📌 Project Overview
 [cite_start]This project develops a robust system to analyze sentiments in social media posts, specifically from Facebook and Twitter[cite: 3, 24]. [cite_start]The system utilizes **Ensemble Learning** techniques to combine multiple Machine Learning (ML) and Deep Learning (DL) models, aiming to classify sentiments into four distinct categories[cite: 2, 23, 25].
